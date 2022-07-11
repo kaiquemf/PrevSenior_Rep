@@ -1,3 +1,20 @@
 *{
   margin: 0;  padding: 0; box-sizing: border-box;
 }
+
+:root{
+  font-size: 62.5%;
+  --ff-main: ;
+  --clr-nav: hsl(195, 73%, 17%);
+}
+
+nav{
+display: flex; justify-content: space-between;
+height: 8rem; width: 100%;
+background: var(--clr-nav);
+}
+nav button{
+  cursor: pointer;
+  background: none; border: none;
+  padding-right: 2rem;
+}
